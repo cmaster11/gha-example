@@ -16,7 +16,7 @@ jobs:
   build:
     uses: cmaster11/gha/.github/workflows/build.yml@main
     permissions:
-      pull-requests: read
+      pull-requests: write
       contents: write
       actions: write
       statuses: write
